@@ -1,0 +1,58 @@
+.search {
+    position: fixed;
+    height: 4rem;
+    width: 70%;
+    background-color: rgba(20, 20, 20, 0.2);
+    box-shadow: 0px 1.5px 1px 1px rgba(20, 20, 20, 0.4);
+    border-radius: 50px;
+    display: flex;
+    top: 10px;
+    left: 15%;
+    justify-content: space-around;
+    align-items: center;
+}
+.search > h2 {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.box_weather{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search > div > form {
+    display: flex;
+    height: 30px;
+}
+.search > div > form > input {
+    border: none;
+    height: 100%;
+    width: 220px;
+    transition: 0.3s;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.search > div > form > input:focus{
+    scale: 1.05;
+}
+.search > div > form > button {
+    display: inline-flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items:center;
+    border: none;
+    background-color: rgba(20, 20, 20, 0.7);
+    height: 100%;
+    width: 30px;
+    margin-left: 10px;
+    color: white;
+    transition: 0.5s;
+}
+.search > div > form > button:hover{
+    cursor: pointer;
+    background-color: rgba(20, 20, 20, 1);
+    scale: 1.2;
+}
