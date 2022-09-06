@@ -1,8 +1,8 @@
 import React from 'react'
 import './BoxWeather.css'
+import Spinner from '../Spinner/Spinner.jsx';
 import { FaTemperatureLow } from "react-icons/fa";
 import { FaTemperatureHigh } from "react-icons/fa";
-import Spinner from '../Spinner/Spinner.jsx';
 
 
 const backgrounds = {
