@@ -1,6 +1,6 @@
 import './App.css';
-import Search from './components/Search/Search';
-import Footer from './components/Footer/Footer';
+import Search from './components/Search/Search.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 
 

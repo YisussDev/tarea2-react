@@ -5,7 +5,7 @@ import '../Functions/useFetching.jsx'
 import { BiSearch } from "react-icons/bi";
 import { FaSearchLocation } from "react-icons/fa";
 import useFetching from '../Functions/useFetching.jsx'
-import Spinner2 from '../Spinner/Spinner2';
+import Spinner2 from '../Spinner/Spinner2.jsx';
 
 const Search = () => {
 
