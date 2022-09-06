@@ -26,7 +26,7 @@
     color: white;
 }
 .box > .info_weather > p {
-    text-align: left;
+    text-align: right;
     padding-left: 10px;
 }
 .info_weather_temp{
@@ -91,6 +91,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .info_weather > p {
+        text-align: right;
     }
     
     .info_position > h1 {
