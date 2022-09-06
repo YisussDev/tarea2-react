@@ -1,8 +1,8 @@
 import React from 'react'
 import './BoxWeather.css'
-import Spinner from '../Spinner/Spinner.jsx';
 import { FaTemperatureLow } from "react-icons/fa";
 import { FaTemperatureHigh } from "react-icons/fa";
+import Spinner2 from '../Spinner/Spinner2.jsx';
 
 
 const backgrounds = {
@@ -18,7 +18,7 @@ const BoxWeather = (props) => {
 
   return (<>
   {
-    props.load ? (<Spinner/>):(
+    props.load ? (<Spinner2/>):(
     <div className="box-weather">
     <img src={backgrounds[`${props.weather}`]} alt="" />
     <div className='box'>
