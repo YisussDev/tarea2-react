@@ -1,10 +1,10 @@
 import React from 'react'
-import '../../App.css'
+import './Spinner.css'
 
 const Spinner = () => {
   return (
     <>
-    <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    <div className="lds-ripple"><div></div><div></div></div>
     </>
   )
 }

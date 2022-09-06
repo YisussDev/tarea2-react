@@ -1,18 +1,19 @@
 .search {
     position: fixed;
     height: 4rem;
-    width: 70%;
+    width: 90%;
     background-color: rgba(20, 20, 20, 0.2);
     box-shadow: 0px 1.5px 1px 1px rgba(20, 20, 20, 0.4);
     border-radius: 50px;
     display: flex;
     top: 10px;
-    left: 15%;
+    left: 5%;
     justify-content: space-around;
     align-items: center;
+    z-index: 10000000;
 }
 .search > h2 {
-    display: flex;
+    display: none;
     align-items: center;
     color: white;
 }
@@ -55,4 +56,14 @@
     cursor: pointer;
     background-color: rgba(20, 20, 20, 1);
     scale: 1.2;
+}
+
+@media (min-width: 700px) {
+    .search{
+        width: 70%;
+        left: 15%;
+    }
+    .search > h2 {
+        display: flex;
+    }
 }
